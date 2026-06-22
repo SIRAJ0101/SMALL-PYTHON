@@ -1,0 +1,6 @@
+import math
+a=3
+b=4
+c=2
+result=math.lcm(a,b,c)
+print(result)
