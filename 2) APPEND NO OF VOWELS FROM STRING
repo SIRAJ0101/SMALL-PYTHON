@@ -1,0 +1,9 @@
+s=["Raju","Ram","Anu"]
+a=[]
+for name in s:
+    vowel_count=0  
+    for letter in name:
+        if letter in "aeiouAEIOU":
+            vowel_count=vowel_count+1  
+    a.append(vowel_count) 
+print(a)
