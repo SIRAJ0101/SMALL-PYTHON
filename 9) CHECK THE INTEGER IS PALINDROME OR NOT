@@ -1,0 +1,9 @@
+a = 121
+num=a
+rev_num = 0
+while a>0:
+    remainder=a%10
+    rev_num=(rev_num*10)+remainder
+    a=a//10
+is_palindrome=num==rev_num
+print(is_palindrome)
